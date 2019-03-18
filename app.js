@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var watson = require('watson-developer-cloud');
 
 var assistant = new watson.AssistantV1({
-  iam_apikey: 'NE6yWK7JBIoWoiNxWTkTnKIBhPL8_HDSranpWax9veyd',
+  iam_apikey: '{APIkey}',
   version: '2019-03-15',
   url: 'https://gateway.watsonplatform.net/assistant/api'
 });
