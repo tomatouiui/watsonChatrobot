@@ -1,0 +1,29 @@
+{
+  "name": "watsonchatrobot",
+  "version": "1.0.0",
+  "description": "by IBM Watson Assistant",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomatouiui/watsonChatrobot.git"
+  },
+  "keywords": [
+    "IBM",
+    "Watson",
+    "Assistant"
+  ],
+  "author": "Toma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomatouiui/watsonChatrobot/issues"
+  },
+  "homepage": "https://github.com/tomatouiui/watsonChatrobot#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "watson-developer-cloud": "^3.18.2"
+  }
+}
